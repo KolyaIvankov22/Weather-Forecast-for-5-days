@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather API</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <center>
+            <h1 id="Para1">5 Days Weather Forecast</h1>
+            <p id="inputContainer">Enter your location: <input type="text" id="cityInput"></p>
+            <button id="button" type="button">Click Me</button>
+            <h2 id="cityName">-</h2>
+        </center>
+
+        <div id="weatherContainer">
+            <div id="iconsContainer">
+                <div class="icons">
+                    <p class="weather" id="day1"></p>
+                    <div class="image"><img src="" class="imgClass" id="img1"></div>
+                    <p class="minValues" id="day1Min">Loading...</p>
+                    <p class="maxValues" id="day1Max">Loading...</p>
+                    <p class="humidity" id="day1Humidity">Loading...</p>
+                    <p class="windSpeed" id="day1WindSpeed">Loading...</p>
+                </div>
+                <div class="icons">
+                    <p class="weather" id="day2"></p>
+                    <div class="image"><img src="" class="imgClass" id="img2"></div>
+                    <p class="minValues" id="day2Min">Loading...</p>
+                    <p class="maxValues" id="day2Max">Loading...</p>
+                    <p class="humidity" id="day2Humidity">Loading...</p>
+                    <p class="windSpeed" id="day2WindSpeed">Loading...</p>
+                </div>
+                <div class="icons">
+                    <p class="weather" id="day3"></p>
+                    <div class="image"><img src="" class="imgClass" id="img3"></div>
+                    <p class="minValues" id="day3Min">Loading...</p>
+                    <p class="maxValues" id="day3Max">Loading...</p>
+                    <p class="humidity" id="day3Humidity">Loading...</p>
+                    <p class="windSpeed" id="day3WindSpeed">Loading...</p>
+                </div>
+                <div class="icons">
+                    <p class="weather" id="day4"></p>
+                    <div class="image"><img src="" class="imgClass" id="img4"></div>
+                    <p class="minValues" id="day4Min">Loading...</p>
+                    <p class="maxValues" id="day4Max">Loading...</p>
+                    <p class="humidity" id="day4Humidity">Loading...</p>
+                    <p class="windSpeed" id="day4WindSpeed">Loading...</p>
+                </div>
+                <div class="icons">
+                    <p class="weather" id="day5"></p>
+                    <div class="image"><img src="" class="imgClass" id="img5"></div>
+                    <p class="minValues" id="day5Min">Loading...</p>
+                    <p class="maxValues" id="day5Max">Loading...</p>
+                    <p class="humidity" id="day5Humidity">Loading...</p>
+                    <p class="windSpeed" id="day5WindSpeed">Loading...</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
